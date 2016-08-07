@@ -16,7 +16,39 @@ Or install it yourself as:
 
 ## Usage
 
+Get a scheme with all available reference data
 
+```ruby
+scheme = Fpml::Scheme.new('business_center')
+```
+
+Access scheme information
+
+```ruby
+scheme.definition
+> "A business day calendar location"
+
+scheme.publication_date
+> "2016-08-02"
+
+...
+```
+Access record information
+
+```ruby
+record = scheme.records.first
+
+record.code
+> "AEAD"
+
+record.source
+> "FpML"
+
+record.description
+> "Abu Dhabi, United Arab Emirates"
+```
+
+All available schemes can be found under Section 5 at [FpML Schemes](http://www.fpml.org/spec/coding-scheme)
 
 ## Development
 
