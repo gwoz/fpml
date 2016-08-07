@@ -16,6 +16,8 @@ Or install it yourself as:
 
 ## Usage
 
+FpML schemes can be found under Section 5 at [FpML Schemes](http://www.fpml.org/spec/coding-scheme)
+
 Get a scheme with all available reference data
 
 ```ruby
@@ -30,8 +32,6 @@ scheme.definition
 
 scheme.publication_date
 > "2016-08-02"
-
-...
 ```
 Access record information
 
@@ -47,8 +47,6 @@ record.source
 record.description
 > "Abu Dhabi, United Arab Emirates"
 ```
-
-All available schemes can be found under Section 5 at [FpML Schemes](http://www.fpml.org/spec/coding-scheme)
 
 ## Development
 
