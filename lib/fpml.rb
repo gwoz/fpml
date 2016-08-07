@@ -54,5 +54,4 @@ module Fpml
       @description = description
     end
   end
-
 end
