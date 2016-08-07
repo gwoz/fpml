@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mikegwozdek@gmail.com"]
 
   spec.summary       = "Financial Product Markup Language (FpML)"
-  spec.description   = "A gem to parse FpML reference data"
+  spec.description   = "A gem to access FpML reference data schemes"
   spec.homepage      = "https://github.com/gwoz/fpml"
   spec.license       = "MIT"
 
